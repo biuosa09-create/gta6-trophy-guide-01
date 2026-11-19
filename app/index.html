@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — Grand Theft Auto VI · PS5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-text">
+    <p class="kicker">Grand Theft Auto VI · PlayStation 5</p>
+    <h1>LEONIDA TROPHY GUIDE</h1>
+    <p class="sub">All 55 trophies — tracker, roadmap and a guide for every one, with sources. Offline, single-player, no cheats on your trophy save.</p>
+  </div>
+  <div class="progress-box" id="progressBox">
+    <div class="progress-numbers"><span id="earnedCount">0</span><span class="of">/ 55 earned</span><span id="percent">0%</span></div>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="grade-counts" id="gradeCounts"></div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button type="button" data-view="checklist" class="active">Checklist</button>
+  <button type="button" data-view="roadmap">Platinum roadmap</button>
+  <button type="button" data-view="missable">Missable &amp; saves</button>
+  <button type="button" data-view="sources">Sources</button>
+</nav>
+
+<section class="toolbar" id="toolbar">
+  <input id="search" type="search" placeholder="Search trophies…" aria-label="Search trophies">
+  <label>Grade
+    <select id="gradeFilter">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label>Kind
+    <select id="kindFilter">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="side">Side strands</option>
+      <option value="robbery">Robbery</option>
+      <option value="activity">Activity</option>
+      <option value="collectible">Collectible</option>
+      <option value="exploration">Exploration</option>
+      <option value="combat">Combat</option>
+      <option value="misc">Misc</option>
+      <option value="completion">100% completion</option>
+      <option value="platinum">Platinum</option>
+    </select>
+  </label>
+  <label>Status
+    <select id="statusFilter">
+      <option value="all">All</option>
+      <option value="earned">Earned</option>
+      <option value="missing">Not earned</option>
+      <option value="missable">Missable only</option>
+    </select>
+  </label>
+  <label class="check"><input id="spoilerToggle" type="checkbox" checked> Hide story spoilers</label>
+  <span class="spacer"></span>
+  <button id="exportBtn" type="button">Export progress</button>
+  <label class="import-btn">Import progress <input id="importFile" type="file" accept="application/json"></label>
+  <button id="resetBtn" type="button">Reset</button>
+</section>
+
+<main id="main">
+  <section id="checklistView" class="view">
+    <div class="columns">
+      <div class="list-col">
+        <p class="list-meta" id="listMeta"></p>
+        <ul class="trophy-list" id="trophyList"></ul>
+      </div>
+      <aside class="detail-col" id="detailPanel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="roadmapView" class="view" hidden>
+    <h2>Roadmap to the platinum — about 200 hours</h2>
+    <p class="intro">One playthrough is enough: all 55 trophies are single-player and offline, there are no difficulty trophies and no online trophies. The only things that can go wrong are the two time-sensitive moments in Phase 2 — everything else stays available after the credits.</p>
+    <ol class="roadmap">
+      <li>
+        <h3>Phase 1 — Before you start: set up your saves</h3>
+        <p>There is <strong>no mission replay and no New Game Plus</strong>. The game has 15 manual save slots plus one autosave: keep one save at the start of every chapter and one untouched save from just before the final mission, and rotate the rest. Never use cheats on your trophy save — cheats should switch off both trophies and saving.</p>
+        <p class="covers">Covers: the save strategy for the whole list.</p>
+      </li>
+      <li>
+        <h3>Phase 2 — Play the story, Chapters 1–4 and the finale</h3>
+        <p>Seventeen story trophies pop as you play: the opening mission, one per chapter, the final mission (a Gold), and the mission trophies in between. Two moments need attention while you are here: <strong>Lucia’s balcony meditation in Chapter 1</strong> (see Missable &amp; saves) and the <strong>Chapter 3 race “Race Against Yago”</strong>, which is time-sensitive — save first, then race the moment it appears. Switching between Jason and Lucia opens right after Breakfast Run in Chapter 2, and several trophies need the two of them together.</p>
+        <p class="covers">Covers: Just Like Paradise · Paradise Lost · T**s Ass Drug Money · Vice City, Baby! · Top Of The World, Ma · You Gotta Know When to Get Off · Trust · Break the Bank · Family Matters · DWNFALL · Hi-Jacked · Snow Storm.</p>
+      </li>
+      <li>
+        <h3>Phase 3 — Side strands and stranger missions</h3>
+        <p>Finish the five side-character finales (Andy, Billy, Kenton, Randy, Tyrone) and Bret’s hunting questline, then complete 8 stranger mission strands for Strangers &amp; Freaks. Note that Andy’s, Billy’s and Tyrone’s strands have their own trophies and do <em>not</em> count toward the 8 — check the trophy’s progress counter after each strand.</p>
+        <p class="covers">Covers: Road to Rehabilitation · This Was No Boat Accident · The Lone Rider · Supply &amp; Demand · Spin On This! · Fair Game · Strangers &amp; Freaks.</p>
+      </li>
+      <li>
+        <h3>Phase 4 — Robberies</h3>
+        <p>Robberies open up through the middle of the game: the Snap Gun from Yasmani’s Jewelry Jobs (Chapter 3) opens jewelry stores; bank vaults unlock through the optional mission That’s Where The Money Is (near the end of Chapter 4). Work through the jewelry store, the armored truck, the 9 gangs’ illegal operations, the 5 bank vaults and the marked-bill laundering — and lose a 4-star Wanted Level with your partner on the way out of a vault for Hot Together.</p>
+        <p class="covers">Covers: Sneakthief · A Classic Blitz Play · Pest Control · Maximum Withdrawal · Dime on the Dollar · Hot Together · Retail Therapy · Let’s Go Bowling.</p>
+      </li>
+      <li>
+        <h3>Phase 5 — Activities and collectibles</h3>
+        <p>Gold all 42 Shooting Range challenges, win a Top Fun drone race at all 14 locations, land 250 stunts, meditate at all 18 spots, finish 3 card sets, WAiNK It at 100 locations, discover 100 vehicles, buy all 8 garages and register 10 vehicles with Scooter Bros. Try every activity type once for Master of None, and keep an eye on the Challenges list under Progress &gt; Challenges.</p>
+        <p class="covers">Covers: The Shootist · Top Fun · Cunning Stunts · Positive Mental Attitude · Don’t Touch My Deck · You WAiNKer! · Whip It Good · Little Boxes · On the Spot · Master of None · One Last Thing · Stick Fiddler · Baited My Tackle · Earn Cash, Not Kudos · Personal Best · Gunslinger.</p>
+      </li>
+      <li>
+        <h3>Phase 6 — Clean-up and 100%</h3>
+        <p>After the credits, open the 100% checklist under Progress &gt; Stats &gt; 100% Completion and clear what is left: 300 stunts, 70 of 80 Challenges, 200 of 277 vehicles, all 39 illegal operations, all 8 bank vaults. A Long Road (Gold) pops with 100% — and with it, the Platinum.</p>
+        <p class="covers">Covers: A Long Road · Vice Got a Price! · The Goodtime State · Catch Me If You Can · Challenging Tank · In The Beginning… · Capital Offense · Actions Speak Louder · Bad Luck, I Guess · The Truth Is Out There · Ten Pin · Treat Yo Self.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="missableView" class="view" hidden>
+    <h2>Missable trophies &amp; save strategy</h2>
+    <p class="intro">Only <strong>one trophy is reported as missable</strong>, and one strand is time-sensitive. Everything else stays available after the credits.</p>
+    <div class="warn-card">
+      <h3>⚠ Positive Mental Attitude — the one missable trophy</h3>
+      <p>Meditate at every spot across Leonida (18 spots). Meditation spots show as purple icons when you are close; meditating at a spot with your partner counts it for both characters, so bring your partner every time.</p>
+      <p><strong>What can be missed:</strong> Lucia’s balcony meditation in Chapter 1 disappears once the chapter ends. After Lucia is home, check the kitchen in the morning — the morning after the mission Down to Earth is the usual time — then follow her out to the balcony of Jason’s house and accept the task. Keep a Chapter 1 save until this trophy pops.</p>
+      <p class="src">Source: Output Lag trophy guide; PowerPyx.</p>
+    </div>
+    <div class="warn-card">
+      <h3>Race Against Yago — time-sensitive, not strictly missable</h3>
+      <p>This Chapter 3 race in Yago’s street racing strand carries an hourglass icon. It counts toward the Strangers &amp; Freaks strand total, so race it the moment it appears — and save first.</p>
+      <p class="src">Source: Output Lag trophy guide.</p>
+    </div>
+    <div class="warn-card calm">
+      <h3>Save strategy</h3>
+      <p>No mission replay, no New Game Plus. Keep one manual save at the start of every chapter and one untouched save from just before the final mission; the game has 15 manual slots plus one autosave. Never use cheats on your trophy save. Everything outside the story — side-story finales, the 100% checklist — stays available after the credits.</p>
+      <p class="src">Source: Output Lag trophy guide.</p>
+    </div>
+  </section>
+
+  <section id="sourcesView" class="view" hidden>
+    <h2>Sources</h2>
+    <p class="intro">Every trophy’s name, description and grade comes from the PlayStation trophy list as reported on 18 November 2026. How-to details come from the guide sites below, in this guide’s own words — nothing is copied from another guide. Rockstar has not published an official trophy list.</p>
+    <ul class="sources">
+      <li><strong>PSN trophy list, reported 18 Nov 2026 by Exophase, covered by Push Square</strong> — the 55 names, descriptions and grades; the 27 visible / 28 hidden split.</li>
+      <li><strong>GTABase — GTA 6 achievements &amp; trophies list</strong> — full list with grades, Gamerscore and hidden flags; cross-check for every name and grade.</li>
+      <li><strong>PowerPyx — GTA 6 trophy guide</strong> — platinum estimate (about 200 hours, difficulty 4/10), missable notes.</li>
+      <li><strong>Output Lag — GTA 6 trophy list</strong> — how-to details used in the guides: save strategy, meditation spots, vault unlocks, garage and vehicle counts, the Yago race warning.</li>
+      <li><strong>PSNProfiles and TrueAchievements</strong> — list cross-checks and the 1,000 Gamerscore total on Xbox Series X|S.</li>
+    </ul>
+    <p class="intro">Counts used in the guides: 250 stunts for the trophy (300 for 100%), 42 Shooting Range gold medals, 14 Top Fun locations, 18 meditation spots, 39 illegal operations, 9 gangs, 8 bank vaults, 8 garages (about $160,000), 200 of 277 vehicles and 70 of 80 Challenges for 100%.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Leonida Trophy Guide — an unofficial fan guide for Grand Theft Auto VI on PlayStation 5. Not affiliated with Rockstar Games. Trophy names and descriptions are the PlayStation list as reported 18 Nov 2026. Your checklist is stored only in this browser (localStorage).</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
